@@ -1,0 +1,49 @@
+
+#titulli{
+  text-align: center;
+  color: darkblue
+}
+.strong {
+  position: relative;
+}
+
+.strong::before {
+  content:"";
+  width:150%;
+  height:1em;
+  position:absolute;
+  z-index:-1;
+  background: url(//s2.svgbox.net/pen-brushes.svg?ic=brush-1&color=ffff43);
+  left:-25%;
+}
+
+#p{
+  color: darkblue;
+  text-align: center;
+  font-size: 20px;
+}
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cards{
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.btn1{
+position: absolute;
+right: 135px;
+}
+
+.imgs{
+height: 65%;
+}
+
+.footer{
+background-color:rgb(48, 79, 152)
+}
+
